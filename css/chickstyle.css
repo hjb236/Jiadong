@@ -1,0 +1,127 @@
+header{
+  background-image: url('../images/fjdpage.jpg');
+  padding: 1%;
+  text-align: center;
+  background-size:50%;
+  background-repeat:repeat;
+}
+
+body{
+  margin: 3%;
+  font-family: times;
+}
+
+h1{
+  text-transform: uppercase;
+  color:#FFFFFF;
+  font-size:300%;
+}
+
+h2{
+  font-weight:bold;
+  color:#000000;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  color:#000000;
+  margin:0 auto;
+  border:none;
+  border-radius:5px;
+  padding: 15px 20px;
+  font-family: times;
+  background-color:rgba(255, 255, 255, 0.479);
+  text-decoration: none;
+  display:inline-block;
+  transition-duration:1s;
+}
+
+nav a:hover{
+  background-color:#FFFFFF;
+  transition: all 0.5s ease;
+}
+
+nav li li{
+  font-size: 0.5em;
+}
+
+nav li ul{
+  position:absolute;
+  display:none;
+  width:inherit;
+}
+
+nav li:hover ul{
+  display:block;
+}
+
+nav li ul li{
+  display:block;
+}
+.active{
+  background:#FFFFFF;
+}
+
+.left{
+  float:left;
+  display:inline-block;
+  background:#c3c3c3;
+  width: 20%;
+  text-align:center;
+}
+
+.right{
+  padding:1%;
+  display:inline-block;
+  width:77%;
+}
+
+aside img{
+  width:80%;
+  height:45%;
+  border: 1px solid black;
+  margin: 4%;
+}
+
+.comment{
+  font-size:60%;
+}
+
+table{
+  width: 75%;
+  font-family:Bodoni;
+  text-align:center;
+  margin: 0 auto;
+  line-height:35px;
+  padding:15px;
+  opacity: 0.8;
+}
+
+th{
+  color:#FFFFFF;
+  background-color:#9EA3D2;
+  background: -webkit-linear-gradient(to right bottom, #434B8D, #9EA3D2);
+  background: -moz-linear-gradient(to right bottom, #434B8D, #9EA3D2);
+  background: linear-gradient(to right bottom, #434B8D, #9EA3D2);
+  border: none;
+  border-width: 1px 1px 5px 1px;
+  border-radius: 12px 12px 0 0;
+}
+
+td{
+  background-color:#BAD4B3;
+  color:#0027ff;
+  border-radius:2px;
+  text-shadow: 1px 1px #FFFFFF;
+}
+
+table tr:hover{
+  opacity: 1.0;
+}
+
+footer {
+  text-align:right;
+}
